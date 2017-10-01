@@ -189,8 +189,14 @@ ul {
  list-style-type: none;
 }
 
+footer {
+  background-color: #00356b;
+  color: #00356b;
+}
+
 #footer1 {
   font-size: 120%;
+  color: #00356b;
 }
 
 #footer1 strong {
@@ -204,13 +210,13 @@ ul {
 }
 
 #about {
-  padding-left: 105px;
+  padding-left: 150px;
 }
 #academics {
-  padding-left: 93px;
+  padding-left: 138px;
 }
 #support {
-  padding-left: 100px;
+  padding-left: 145px;
 }
 
 #search {
@@ -222,4 +228,10 @@ ul {
   width: 120px;
   margin-left: 420px;
   margin-top: 40px;
+}
+
+#copyright {
+  padding-right: 360px;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
