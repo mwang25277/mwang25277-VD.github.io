@@ -40,6 +40,7 @@ body {
   color: #ecf0f1;
   border-radius: .25rem;
   margin: 0 0.25em;
+  font-size: 125%;
 }
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
@@ -146,4 +147,79 @@ body {
 #yale {
 	font-family: Times New Roman;
 	font-size: 20pt;
+}
+
+/*CSS*/
+div.c-wrapper{
+    width: 80%; /* for example */
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+margin: auto;
+}
+
+.carousel-indicators {
+  margin: auto;
+}
+
+.jumbotron {
+  height: 292px;
+}
+
+.card > img {
+  height: 200px;
+  width: 348px;
+}
+
+#myCarousel {
+  margin-bottom: 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col-lg-4 {
+  padding-bottom: 50px;
+}
+
+ul {
+ list-style-type: none;
+}
+
+#footer1 {
+  font-size: 120%;
+}
+
+#footer1 strong {
+  color: #428ff4;
+
+}
+
+#footer1 .nav-link {
+  color: white;
+  text-align: left;
+}
+
+#about {
+  padding-left: 105px;
+}
+#academics {
+  padding-left: 93px;
+}
+#support {
+  padding-left: 100px;
+}
+
+#search {
+  height: 27px;
+}
+
+#yalelogo {
+  height: 120px;
+  width: 120px;
+  margin-left: 420px;
+  margin-top: 40px;
 }
